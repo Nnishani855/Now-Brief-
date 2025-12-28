@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Now Brief V2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <header class="top-bar">
+    <span class="title">Now Brief</span>
+    <button class="settings-button" aria-label="Settings">⚙️</button>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- Daily Summary FIRST -->
+    <section class="card daily-summary">
+      <h2>✨ Daily Summary</h2>
+      <p id="summary">Have a great day ✨</p>
+    </section>
+
+    <section class="card greeting">
+      <h1 id="greeting">Hello</h1>
+      <p id="datetime">--:-- • ---</p>
+    </section>
+
+    <section class="card">
+      <h2>🌦 Weather</h2>
+      <p id="weather">Loading…</p>
+    </section>
+
+    <section class="card">
+      <h2>⏱ Screen time</h2>
+      <p class="big">2h 50m</p>
+      <span class="muted">Today</span>
+    </section>
+
+    <section class="card">
+      <h2>❤️ Health</h2>
+      <p>🚶 6,320 steps</p>
+      <p>😴 7h 15m sleep</p>
+    </section>
+
+  </main>
+
+  <!-- Read Aloud Button -->
+  <button class="read-button" aria-label="Read Aloud">🔊</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
